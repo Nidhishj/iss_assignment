@@ -1,0 +1,188 @@
+    .TheTOPbox{
+        background-color: #1d44d1;
+        
+        height: 70%;
+        border-radius: 20px;
+        padding: 2.5%;
+    }
+
+    .applink{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 45%;
+        overflow: hidden;
+        background-color: black;
+    }
+    body {
+        background-color: #ffffff; 
+        color: #000000; 
+        transition: background-color 0.5s ease,color 0.5s ease;
+    }
+    
+    body.dark-mode {
+        background-color: #000000; 
+        color: #ffffff; 
+    }
+    
+    .applink img{
+        width: 100%;
+        height: auto;
+    }
+    .ForTopBOXbutton{
+        color: rgb(255, 255, 255);
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 125%;
+        background-color: transparent;
+        border:transparent;
+    }
+    
+    .ForTopBOXbutton:hover{
+        background-color: #6e86dc;
+        cursor: pointer;
+    }
+    .textandima{
+        display: flex;
+        align-items: center;
+        animation: slideIn 2s ease-in-out forwards;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        background-color: rgba(147, 175, 179, 0.5);
+    }   
+    body.dark-mode .textandima{
+        background-color: black;
+        color: white;
+    }
+    @keyframes slideIn {
+        from {
+          opacity: -1;
+          transform: translateX(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    .temp1{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: rgba(242, 242, 212, 0.4);
+    }
+
+    body.dark-mode .temp1{
+        background-color: rgb(150, 148, 189);
+        color: white;
+    }
+    .myimg{
+        position: relative;
+        width: 20%;
+        margin-right: 2%;
+    }
+
+    .myimg img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .txt{
+        font-size: 20px;
+        flex: 1;
+    }
+
+    .tablecontainer {
+        flex:  70%;
+        animation: slideIn2 1s ease-in-out backwards;
+    }
+    
+    @keyframes slideIn2  {
+        from {
+          opacity: -1;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    .styled-table {
+        width: 70%;
+        border-collapse: collapse;
+        border: 2px solid black;
+        border-color: black;
+    }
+    
+    body.dark-mode .styled-table {
+        border-color:  white;
+    }
+    .styled-table th,
+    .styled-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .temp2{
+        box-shadow: 0px 0px 10px rgba(76, 40, 40, 0.5);
+        background-color: rgba(177, 241, 167, 0.4);
+    }
+    
+    body.dark-mode .temp2{
+        background-color: rgb(138, 101, 101);
+        color: white;
+    }
+
+    #Achievements {
+        text-align: center; 
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .achievement-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .achievement-list {
+        font-size: 20px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+    
+    @media (min-width: 768px) {
+        .content {
+            flex-direction: row;    
+            justify-content: space-between;
+        }
+    
+        .achievement-list {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .achievement-image {
+            order: 1; 
+        }
+    }
+    
+    .temp9{
+        box-shadow: 2px 2px 10px rgba(161, 105, 105, 0.5);
+        background-color: rgba(167, 232, 241, 0.4);
+    }
+
+    body.dark-mode .temp9{
+        background-color: rgba(90, 89, 85, 0.482);
+        color: white;
+    }
+
+    .temp10{
+        box-shadow: 0px 0px 10px rgba(76, 40, 40, 0.5);
+        background-color: rgba(241, 167, 193, 0.4);
+    }
+
+    body.dark-mode .temp10{
+        background-color: rgba(119, 97, 123, 0.482);
+        color: white;
+    }

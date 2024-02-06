@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="assignment1.css">
+    <script src="assignment.js"></script>
+</head>
+<div class="TheTOPbox">
+    <button class="ForTopBOXbutton" onclick="scrolltoID('ABOUT ME')">About Me</button>
+    <span style="margin-right: 5%;"></span>
+    <button class="ForTopBOXbutton" onclick="scrolltoID('Education')">Education </button>
+    <span style="margin-right: 5%;"></span>
+    <button class="ForTopBOXbutton" onclick="scrolltoID('Achievements')">Achievements</button>
+    <span style="margin-right: 5%;"></span>
+    <button class="ForTopBOXbutton" onclick="scrolltoID('Skills')">Skills</button>
+    <span style="margin-right: 5%;"></span>
+    <button class="ForTopBOXbutton" onclick="scrolltoID('BLOG')">Blog</button>
+    <span style="margin-right: 40%;"></span>
+    <button class="ForTopBOXbutton" onclick="toggleDarkMode()">MODE</button>
+</div>
+<body>
+    
+    <br><br><br>
+    <div id="ABOUT ME" class="textandima">
+        <div id="img" class="myimg"><img src="my_image.jpeg"></div>
+        <div class="txt">
+            <h1>About Me</h1>Hi I am Nidhish Jain, Fresher pursuing CSE @IIIT-H.I am a passionate learner right now
+            learning new skills for coding and web dev.
+            Also a fun gamer and bad jokes cracker(can't do much now(IIIT for a reason)).<br>
+            I am a resident of Indore and have done my major schooling and JEE prep in Indore.<br>
+            Here are my Socials:
+            <br><br><br>
+            <a href="https://www.instagram.com/nidhish_jain_" class="applink"><img src="instagram.jpeg"></a>
+            <span style="margin-right: 1.3%;"></span>
+
+            <a href="https://www.facebook.com/people/Nidhish-Jain/pfbid037PX8LHtWFx1x3cEArQ5TzcJX3sr8TEdswNgAP1emJU6UjVhc39ifTa16ALkoCMFml/" class="applink"><img src="Facebook_Logo_2023.png"></a>
+            <span style="margin-right: 1.3%;"></span>
+            <a href="https://github.com/Nidhishj" class="applink"><img src="download.png"></img></a>
+            <span style="margin-right: 1.3%;"></span>
+            <a href="mailto:nidhish.jain@students.iiit.ac.in" class="applink" style="background-color: white;"><img src="email.png"></a>
+            <span style="margin-right: 1.3%;"></span>
+            <a href="https://in.linkedin.com/in/nidhish-jain-43ab52280" class="applink"><img src="linkedin.png"></a>
+        </div>
+    </div>
+    <br><br>
+    <div id="Education" class="temp1">
+        <br>
+        <h1>Educational Background</h1>
+        <p style="font-size: 20px;">I have studied in various schools</p>
+        <div class="tablecontainer">
+            <table class="styled-table" style="position: relative;">
+                <td>Class</td>
+                <td>Institute</td>
+                <tr>
+                    <td>Nursery-UKG</td>
+                    <td>Shri C.K. Chandel Memorial School</td>
+                </tr>
+                <tr>
+                    <td>1-2</td>
+                    <td>San Thome Academy</td>
+                </tr>
+                <tr>
+                    <td>2-10</td>
+                    <td>Choithram School North Campus</td>
+                </tr>
+                <tr>
+                    <td>11-12</td>
+                    <td>Shri Ram Centennial School Indore</td>
+                </tr>
+                <tr>
+                    <td>JEE+NTSE</td>
+                    <td>Catalyser</td>
+                </tr>
+                <tr>
+                    <td>BTech</td>
+                    <td>International Institute of Information Technology,Hyderabad</td>
+                </tr>
+                <tr>
+                    <td>MTech/MS</td>
+                    <td>???</td>
+                </tr>
+                <img src="school-outdoor-scene_1308-31334.avif" style="float: right;     width: 23%;height: 10%;">
+            </table>
+            <br><br>
+        </div>
+        </div>
+    </div>
+
+
+    <br><br>
+    <div id="Achievements" class="temp2">
+        <h1 >Achievements</h1>
+        <div class="content">
+            <img src="trophg-removebg-preview.png" alt="Achievement Image" class="achievement-image">
+            <ul class="achievement-list">
+                <li>Class 5-10- IMO Gold Medal reserved for me(xd)</li>
+                <li><b> Bal Vigyan SST </b>Class 9 - Best Project File</li>
+                <li><b>Class-10 IMO</b> Zonal Rank Holder</li>
+                <li><b>NTSE Stage 1</b> Qualified (MP)</li>
+                <li><b>NTSE Stage 2</b> Qualified (National)</li>
+                <li><b>Class 10 (CBSE) boards</b> 98% (covid year 🙃)</li>
+                <li><b>KYPY</b> Scholar - Extended Merit list (AIR 1250)</li>
+                <li><b>JEE MAINS</b> - 99.899%ile (jan) & 99.889%ile (apr)
+                    <br>Chemistry- 100%ile(100/100 marks)
+                    <br>AIR 1256
+                </li>
+                <li><b>Class 12 (CBSE) boards</b>- 94.8%</li>
+                <li><b>JEE ADVANCE</b> - AIR 2698</li>
+                <br>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <br><br>
+    
+    <div id="Skills" class="temp9">
+        <h1>Skills</h1>
+        <p style="font-size: 20px;font-style:italic">I passed my First SEM.</p>
+           <p style="font-size: 20px;">(Second SEM seems to be <b>difficult.</b>)</p> 
+           <p style="font-size: 20px;">average BGMI player,a singer <br>
+        Also a member of TGC (Corporate team)</p>
+        <table class="styled-table" style="width: 20%;">
+            <tr><td>Languages learned</td>
+            </tr>
+            <tr>
+                <td>C</td>
+            </tr>
+            <tr><td>C++</td></tr>
+        </table>
+        <a href="pdf.pdf.odt" download>here</a> to download a wordfile.
+    </div>
+    <div id="BLOG" class="temp10">
+        <h1>Blog</h1>
+        <a href="blog_1.html" target="blank" style="color: blue;">click</a>
+        to visit the blog.
+        <br>
+        <br>
+    </div>
+</body>
+
+
+
+</html>
